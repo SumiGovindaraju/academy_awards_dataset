@@ -1,4 +1,6 @@
 # Awards
+Fork: Generates a CSV file with all the data
+
 This is the dataset for Academy Awards winners and nominees. Enjoy!
 
 *Note*: In the early years, some awards are given to people regardless of any specific movie.
