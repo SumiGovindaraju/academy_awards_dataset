@@ -8,7 +8,7 @@ path = os.getcwd() + '/academy_awards'
 
 with open('academy_awards.csv', 'w') as csvfile:
     writer = csv.writer(csvfile)
-    writer.writerow(['Year', 'Award', 'Film', 'Nominee', 'Won'])
+    writer.writerow(['Year', 'Award', 'Name 1', 'Name 2', 'Won'])
 
     for filename in os.listdir(path):
         with open(os.path.join(path, filename), 'r') as f:
